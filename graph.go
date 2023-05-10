@@ -27,6 +27,8 @@ import (
 	"github.com/google/pprof/profile"
 )
 
+const maxNodelets = 1024
+
 var (
 	// Removes package name and method arguments for Java method names.
 	// See tests for examples.
